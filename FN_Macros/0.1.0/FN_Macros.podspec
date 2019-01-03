@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FN_Macros/FN_Macros/Classes/**/*.{h,m}'
+  s.source_files = 'FN_Macros/FN_Macros/Classes/**/*'
 
   
   # s.resource_bundles = {
