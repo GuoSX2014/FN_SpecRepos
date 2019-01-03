@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FN_Login/Classes/**/*.{h,m}'
+  s.source_files = 'FN_Login/FN_Login/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'FN_Login' => ['FN_Login/Assets/*.png']
