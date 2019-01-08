@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FN_Base/FN_Base/Classes/**/*.{h,m}'
+  s.source_files = 'FN_Base/Classes/**/*'
   
   # s.resource_bundles = {
   #   'FN_Base' => ['FN_Base/Assets/*.png']
@@ -38,5 +38,12 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'FN_Macros'
+  s.dependency 'MJExtension', '~> 3.0.13'
+  s.dependency 'FDFullscreenPopGesture', '~> 1.1'  
+  s.dependency 'FNHUD'
+  s.dependency 'FNNetwork'
+  s.dependency 'FNCategory'
+  
 end
